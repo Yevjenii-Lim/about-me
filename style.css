@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: -40px;
+    /* margin-top: -40px; */
     /* background-color: #8caeff; */
 }
 table {
@@ -28,6 +28,7 @@ td {
 }
 .general-info {
     font-style: italic;
+    border: 1px ;
 }
 .main-info {
     display: flex;
@@ -48,4 +49,15 @@ span {
 }
 li {
     margin-top: 10px;
+}
+#git {
+    width: 300px;
+    margin: 20px auto;
+}
+#git a {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #8caeff;
+    text-decoration: none;
+    margin-left: 25px;
 }
